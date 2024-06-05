@@ -1,0 +1,130 @@
+$width: 30vh;
+$height: 40vh;
+
+.bestseller {
+  padding: 1vh 18vh 1vh 30vh;
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  &__ul > li {
+    margin-bottom: 5vh;
+  }
+  &__img-container {
+    width: $width;
+    height: $height;
+  }
+  &__img {
+    width: $width;
+    height: $height;
+  }
+  &__container {
+    border: transparent;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  &__container:hover {
+    filter: grayscale(100%) blur(1px);
+    transform: scale(1.05);
+  }
+  &__title {
+    color: #000000;
+    padding: 1vh;
+    font-weight: 500;
+    text-align: left;
+  }
+  &__category {
+    color: #00000080;
+  }
+
+  &__data-container {
+    padding: 0vh 1vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__price-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vh;
+  }
+  &__new-price {
+    color: #ff6f61;
+  }
+  &__deleted-price {
+    color: #00000080;
+  }
+  &__situation-div {
+    position: absolute;
+    z-index: 1;
+    padding: 0.3vh 1vh;
+    top: 3vh;
+  }
+  &__li {
+    position: relative;
+  }
+  &__li:hover &__hover-image {
+    opacity: 1;
+    cursor: pointer;
+  }
+  &__hover-image:hover {
+    &__container {
+      filter: grayscale(100%) blur(1px);
+      transform: scale(1.05);
+    }
+  }
+
+  &__hover-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10vh;
+    height: 10vh;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+  }
+  &__filter-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3vh 1vh;
+    gap: 0.3vh;
+    border-color: transparent;
+    background-color: #1e2832;
+    color: white;
+  }
+  &__options-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__filter-ul {
+    display: flex;
+    gap: 0.5vh;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  &__options-button {
+    color: #00000080;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+
+  &__filter-div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+  }
+  &__header {
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    font-size: 5vh;
+    font-weight: 500;
+  }
+  //
+}

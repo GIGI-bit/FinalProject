@@ -1,0 +1,189 @@
+{
+  "post": [
+    {
+      "title": "Beautiful brown dress",
+      "category": "Dress",
+      "price": 354,
+      "situation": "",
+      "isBestseller": false,
+      "img": "https://shorturl.at/iqfQX"
+    },
+    {
+      "title": "Modest Glasses",
+      "category": "Glasses",
+      "price": 34,
+      "situation": "",
+      "isBestseller": false,
+      "img": "https://shorturl.at/0w3oi"
+    },
+    {
+      "title": "Warm Jacket",
+      "category": "Dress",
+      "price": 168.99,
+      "situation": "",
+      "isBestseller": false,
+      "img": "https://shorturl.at/7T5vg"
+    },
+    {
+      "title": "Beautiful red dress",
+      "category": "Dress",
+      "price": 354,
+      "situation": "SALE",
+      "isBestseller": false,
+      "img": "https://shorturl.at/eNMBn"
+    },
+    {
+      "title": "Elegant Evening Dress",
+      "category": "Dress",
+      "price": 99.99,
+      "situation": "New",
+      "isBestseller": false,
+      "img": "https://shorturl.at/c93xD"
+    },
+    {
+      "title": "Stylish Leather Handbag",
+      "category": "Bag",
+      "price": 79.99,
+      "situation": "",
+      "isBestseller": true,
+      "img": "https://shorturl.at/oyft5"
+    },
+    {
+      "title": "Cozy Hooded Sweatshirt",
+      "category": "Hoodie",
+      "price": 49.99,
+      "situation": "SALE",
+      "isBestseller": true,
+      "img": "https://shorturl.at/XWlaF"
+    },
+    {
+      "title": "Cozy Hooded Sweatshirt",
+      "category": "Hoodie",
+      "price": 49.99,
+      "situation": "SALE",
+      "isBestseller": true,
+      "img": "https://style.pibig.info/uploads/posts/2023-03/1679435411_style-pibig-info-p-udlinennaya-tolstovka-zhenskie-pinterest-4.jpg"
+    },
+    {
+      "title": "Cozy Hooded Sweatshirt",
+      "category": "Hoodie",
+      "price": 49.99,
+      "situation": "SALE",
+      "isBestseller": true,
+      "img": "https://express-china.ru/upload/iblock/b3c/b3c63c3b0485efbc271b0141d10c4416.jpg"
+    },
+
+    {
+      "title": "Designer Sunglasses",
+      "category": "Glasses",
+      "price": 99.99,
+      "situation": "New",
+      "isBestseller": true,
+      "img": "https://shorturl.at/eRjcD"
+    },
+    {
+      "title": "Evening Gown",
+      "category": "Dress",
+      "price": 199.99,
+      "situation": "",
+      "isBestseller": false,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgcVciYXhI7k3PWeR4BtZ-2oRmGHAZKd7tUw&s"
+    },
+    {
+      "title": "Leather Boots",
+      "category": "Shoe",
+      "price": 149.99,
+      "situation": "",
+      "isBestseller": false,
+      "img": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vdHdlYXJ8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "title": "Vintage Hoodie",
+      "category": "Hoodie",
+      "price": 79.99,
+      "situation": "",
+      "isBestseller": true,
+      "img": "https://shorturl.at/1qjRy"
+    },
+    {
+      "title": "Leather Shoulder Bag",
+      "category": "Bag",
+      "price": 129.99,
+      "situation": "New",
+      "isBestseller": false,
+      "img": "https://img.monocle.com/product/shoulder-bag-black-small-637e067c80b01.jpg?g=center&q=90"
+    },
+    {
+      "title": "Cashmere Scarf",
+      "category": "Scarf",
+      "price": 49.99,
+      "situation": "New",
+      "isBestseller": true,
+      "img": "https://shorturl.at/kwqP7"
+    },
+    {
+      "title": "Wool Scarf",
+      "category": "Scarf",
+      "price": 49.99,
+      "situation": "",
+      "isBestseller": true,
+      "img": "https://a.lmcdn.ru/pi/img600x866/M/P/MP002XU04RNA_15985314_11_v1_2x.jpg"
+    },
+    {
+      "title": "Running Shoes",
+      "category": "Shoe",
+      "price": 89.99,
+      "situation": "",
+      "isBestseller": true,
+      "img": "https://ae04.alicdn.com/kf/Hcaa210fbf69b43f4bc7ff4ea9ba05c271.jpg"
+    },
+    {
+      "title": "Classic Shoes",
+      "category": "Shoe",
+      "price": 99.99,
+      "situation": "",
+      "isBestseller": true,
+      "img": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/43/290532/7.jpg?1685"
+    },
+    {
+      "title": "Converse",
+      "category": "Shoe",
+      "price": 199.99,
+      "situation": "New",
+      "isBestseller": true,
+      "img": "https://www.converse.com/dw/image/v2/BCZC_PRD/on/demandware.static/-/Sites-cnv-master-catalog/default/dw8711f6cf/images/d_08/M9160_D_08X1.jpg?sw=406"
+    },
+    {
+      "title": "Warm Jacket",
+      "category": "Jackets",
+      "price": 179.99,
+      "situation": "New",
+      "isBestseller": true,
+      "img": "https://media.boohoo.com/i/boohoo/mzz26977_light%20grey_xl?$product_image_main_mobile$&fmt=webp"
+    },
+    {
+      "title": "White Jacket",
+      "category": "Jackets",
+      "price": 69.99,
+      "situation": "",
+      "isBestseller": true,
+      "img": "https://assets.woolworthsstatic.co.za/Denim-Jacket-WHITE-506938152.jpg?V=e0oG&o=eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvcHJvZHVjdHMvaGVyby8yMDI0LTA0LTE2LzUwNjkzODE1Ml9XSElURV9oZXJvLmpwZyJ9&q=75"
+    },
+    {
+      "title": "Jean Jacket",
+      "category": "Jackets",
+      "price": 69.99,
+      "situation": "",
+      "isBestseller": true,
+      "img": "https://oldnavy.gap.com/webcontent/0052/755/033/cn52755033.jpg"
+    },
+    {
+      "title": "Leather Jacket",
+      "category": "Jackets",
+      "price": 69.99,
+      "situation": "New",
+      "isBestseller": true,
+      "img": "https://www.wilsonsleather.com/media/catalog/product/e/-/e-wc6a1021_ewc6a1021c32_2.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width="
+    }
+  ]
+}

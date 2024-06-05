@@ -1,0 +1,26 @@
+{
+  "catalog": [
+    { "item": "CATALOG" },
+    { "item": "Necklace" },
+    { "item": "Hoodies" },
+    { "item": "Jewelery Box" },
+    { "item": "T-Shirt" },
+    { "item": "Jacket" }
+  ],
+  "aboutUs": [
+    { "item": "ABOUT US" },
+    { "item": "Our Producers" },
+    { "item": "Sitemap" },
+    { "item": "FAQ" },
+    { "item": "About Us" },
+    { "item": "Terms & Conditions" }
+  ],
+  "customerService": [
+    { "item": "CUSTOMER SERVICE" },
+    { "item": "Contact Us" },
+    { "item": "Track Your Order" },
+    { "item": "Product Care & Repair" },
+    { "item": "Book an Appointment" },
+    { "item": "Shipping & Returns" }
+  ]
+}

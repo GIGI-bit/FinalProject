@@ -1,0 +1,50 @@
+.zara {
+  display: flex;
+  margin-top: 10vh;
+  // justify-content: right;
+  width: 100%;
+  height: 88vh;
+  position: relative;
+  &__img {
+    width: 20vh;
+  }
+  &__bg {
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+  }
+  &__data-div {
+    position: absolute;
+    z-index: 1;
+    top: 30vh;
+    left: 95vh;
+  }
+  &__text {
+    text-align: left;
+    color: white;
+    width: 40vh;
+    font-size: 2vh;
+    margin-top: 3vh;
+  }
+  &__button {
+    margin-top: 5vh;
+    background-color: #fff;
+    color: #1e2832;
+    border-color: transparent;
+    padding: 1vh 2vh;
+    font-size: 2vh;
+  }
+  &__div {
+    //   margin-top: 25vh;
+    //   margin-right: 35vh;
+    //   margin-bottom: 20vh;
+    position: relative;
+  }
+  &__floating-img {
+    opacity: 0.1;
+    position: absolute;
+    top: 12vh;
+    left: 110vh;
+    width: 70vh;
+  }
+}

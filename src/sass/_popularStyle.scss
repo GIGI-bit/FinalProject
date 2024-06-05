@@ -1,0 +1,54 @@
+.popular {
+  //   display: inline-block;
+  //   position: relative;
+  padding: 1vh 18vh 1vh 30vh;
+  &__main-cont {
+    display: flex;
+  }
+  &__title {
+    // display: block;
+    margin-top: 28vh;
+    position: absolute;
+    left: 0;
+    transform: rotate(-90deg);
+    font-size: 3.5vh;
+    font-weight: 400;
+  }
+  &__img {
+    width: 30vh;
+    height: 29vh;
+  }
+  &__main-img {
+    // margin: 0vh;
+
+    width: 60vh;
+    height: 60vh;
+    // margin-left: 10vh;
+  }
+  &__ul li:nth-child(3) {
+    margin-top: 1vh;
+  }
+  &__ul li:nth-child(4) {
+    margin-top: 1vh;
+  }
+  &__ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 0.6vh;
+  }
+
+  &__situation-div {
+    position: absolute;
+    z-index: 1;
+    padding: 0.3vh 1vh;
+    top: 3vh;
+  }
+  &__main-img-div {
+    width: 60vh;
+    height: 60vh;
+    margin-left: 3vh;
+    margin-right: 1vh;
+  }
+}

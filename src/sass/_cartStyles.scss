@@ -1,0 +1,44 @@
+.cart {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  &__cart {
+    width: 30vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: -50vh;
+  }
+  &__ul {
+    list-style-type: none;
+  }
+  &__ul > li {
+    margin-top: 2vh;
+  }
+  &__product-container {
+    display: flex;
+    gap: 2vh;
+  }
+
+  &__img {
+    width: 7vw;
+    height: 9vh;
+  }
+  &__price-div {
+    display: flex;
+    gap: 1vh;
+  }
+  &__category {
+    color: #00000080;
+  }
+  &__content-div {
+    position: absolute;
+    width: 40vw;
+    height: 100vh;
+    background-color: white;
+    overflow: scroll;
+  }
+}

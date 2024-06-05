@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  height: 100vh;
+  background-image: url("https://s3-alpha-sig.figma.com/img/d559/4c90/732d83ff10af721fdfa1c027f7ed32c5?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PRKfVRkDHEzzVxYgPuX69~YnHWk32kiK2GJUf~yejg4osfeA-WsHcNrYwwBIIaULBpXOyNHurB5su~EYhjkni1bbfJRjfMPPoNkmxLBWDDQleiakTOWy3lmUnbI-LHC~yMTe-VbI~K0vvOV2YAC-BRLu1gV-IF5ouJBZpB88LtRGoLMinzhjErReMYHB4v1MN8YBuKf~UBkbynn1VbQ2XZTXV-4s7sgLmCAFVBfsTOAwtNoaQ6vcklVeN4sAYZY~GR3XBCNfBUGTeYYrpq31GldWlBilnKETh6ZRg4rk9pXAtShU5qG6F5hmZ17ltiBCUFiVhnw1DDTk7O8WwAezuw__");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+}
+
+.login__form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10vh 5vh;
+  background-color: rgba(30, 40, 50, 0.6);
+  display: grid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.login__form > input {
+  padding: 1vh 0.5vh;
+  margin-bottom: 3vh;
+}
+
+.login__form-header {
+  font-family: Roboto;
+  text-align: center;
+  margin-bottom: 5vh;
+  color: white;
+}
+
+.login__button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Roboto;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darken(white, 15%);
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
+}

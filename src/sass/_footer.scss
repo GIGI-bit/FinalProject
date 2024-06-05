@@ -1,0 +1,74 @@
+.footer {
+  height: 50vh;
+  &__div-top {
+    padding: 15vh 25vh;
+    display: flex;
+    gap: 10vh;
+  }
+  &__socials-ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2vw;
+  }
+  &__lorem-text {
+    width: 26vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    color: #1e2832bf;
+  }
+  &__catalog-ul {
+    list-style-type: none;
+    color: #1b252ebf;
+  }
+  &__catalog-ul > li {
+    margin-top: 2vh;
+    width: 7vw;
+  }
+  &__catalog-header {
+    font-size: 2.5vh;
+  }
+  &__aboutUs-ul {
+    list-style-type: none;
+    color: #1b252ebf;
+  }
+  &__customerService-ul {
+    list-style-type: none;
+    color: #1b252ebf;
+  }
+  &__aboutUs-header {
+    width: 10vw;
+    font-size: 2.5vh;
+  }
+  &__aboutUs-ul > li {
+    margin-top: 2vh;
+  }
+  &__customerService-header {
+    width: 20vw;
+    font-size: 2.5vh;
+  }
+  &__customerService-ul > li {
+    margin-top: 2vh;
+  }
+  &__div-bottom {
+    display: flex;
+    height: 4vh;
+    background-color: #1e2832;
+    align-items: center;
+    justify-content: center;
+    gap: 15vw;
+  }
+  &__copyright {
+    color: white;
+  }
+  &__scroll-btn {
+    display: flex;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    gap: 1vh;
+  }
+  &__btn {
+    background-color: transparent;
+    border: transparent;
+  }
+}
